@@ -62,17 +62,7 @@ Start the development server
 
 npm run dev
 
-🔮 Future Enhancements
 
-Search functionality
-
-Pagination / Load more
-
-Dark mode
-
-Skeleton loaders
-
-Mobile navbar improvements
 
 ---
 
