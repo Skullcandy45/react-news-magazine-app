@@ -1,12 +1,82 @@
-# React + Vite
+# React News Magazine App 📰
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React news application that fetches and displays the latest headlines using the NewsAPI.  
+Users can browse news by category with an improved and intuitive user experience.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Category-based news filtering
+- Active category highlight in navbar
+- Real-time data from NewsAPI
+- Loading & error handling
+- Image fallback using Unsplash
+- Responsive UI with Bootstrap
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- React
+- JavaScript (ES6)
+- React Hooks (`useState`, `useEffect`)
+- NewsAPI
+- Bootstrap
+- Vite
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
+src/
+├── Component/
+│ ├── Navbar.jsx
+│ ├── Newsboard.jsx
+│ ├── Newsitem.jsx
+├── App.jsx
+├── main.jsx
+└── index.css
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Environment Setup
+
+Create a `.env` file in the root directory:
+
+
+Get your API key from https://newsapi.org
+
+## ▶️ How the App Works
+- Navbar updates the selected category
+- Active category is visually highlighted
+- Newsboard fetches news when category changes
+- News items are rendered with image fallback support
+
+### Example
+User clicks **Technology** →  
+Technology button highlights →  
+Latest technology news is displayed
+
+## ▶️ Run Locally
+
+1. Clone the repository
+```bash
+git clone https://github.com/your-username/react-news-magazine-app.git
+
+Install dependencies
+
+npm install
+
+
+Start the development server
+
+npm run dev
+
+🔮 Future Enhancements
+
+Search functionality
+
+Pagination / Load more
+
+Dark mode
+
+Skeleton loaders
+
+Mobile navbar improvements
+
+---
+
+## ⭐ Best next step (recommended)
+👉 Add **screenshots + live demo link** to the README (huge portfolio boost).
+
+Say **`add screenshots section`** if you want that next.
